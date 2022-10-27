@@ -90,6 +90,12 @@ function App() {
       });
     }
     if (currAttempt.letterPos === 0) {
+      newBoard[currAttempt.attempt][currAttempt.letterPos] = "";
+      setBoard(newBoard);
+      setCurrAttempt({
+        ...currAttempt,
+        letterPos: currAttempt.letterPos,
+      });
       return;
     } else if (
       currAttempt.letterPos === correctWord.length ||
