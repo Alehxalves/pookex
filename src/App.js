@@ -28,7 +28,6 @@ function App() {
     guessedWord: false,
   });
   useEffect(() => {
-    console.log(correctWord);
     getPokemonImg(correctWord).then((url) => setImgPokemon(url));
   }, [correctWord]);
 
