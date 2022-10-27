@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  text-align: center;
+  background-image: url("./imgs/Pokezin.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  height: 70px;
+  width: 100vw;
+  margin: 0;
+  background-color: #191919;
+  border-bottom: 2px red;
+  display: grid;
+  border: 20px red;
+  place-items: center;
+}
+
+.game {
+  width: 100vw;
+  height: calc(100vh - 100%);
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  flex-direction: column;
+}
