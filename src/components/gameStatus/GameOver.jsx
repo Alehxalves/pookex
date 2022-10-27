@@ -11,6 +11,7 @@ function GameOver() {
         <div id="hideMe">
           <div className="pokeball">
             <img
+              className="pokeImage"
               id="showMe"
               src={imgPokemon}
               alt={correctWord}

@@ -9,6 +9,7 @@ export const CreateBoard = (correctPoke) => {
 
 export const getPokemonImg = async (pokemonName) => {
   let urlImg = "";
+  if (pokemonName === "mrmime") pokemonName = "mr-mime";
 
   await api
     .get(`pokemon-form/${pokemonName.toLowerCase()}`)
