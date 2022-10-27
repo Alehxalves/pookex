@@ -23,7 +23,7 @@ function GameOver() {
           </div>
         </div>
         <h3 id="showMe" style={{ visibility: "hidden" }}>
-          YOU CATCH THE {correctWord} CONGRATS!
+          YOU CATCH {correctWord} CONGRATS!
         </h3>
       </div>
     );
